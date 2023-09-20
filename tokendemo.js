@@ -88,7 +88,7 @@ if (window.location.hash) {
     var queryStringData = {
         response_type: "token",
         client_id: CLIENT_ID,
-        redirect_uri: "https://stoltenbergpeter.github.com/acdconference.html"
+        redirect_uri: "https://stoltenbergpeter.github.io/acdconference/index.html"
     }
     window.localStorage.clear();
 
@@ -103,7 +103,7 @@ function reAuth() {
     var queryStringData = {
         response_type: "token",
         client_id: CLIENT_ID,
-        redirect_uri: "https://stoltenbergpeter.github.com/acdconference.html"
+        redirect_uri: "https://stoltenbergpeter.github.io/acdconference/index.html"
     }
     window.localStorage.clear();
 
